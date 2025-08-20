@@ -1,0 +1,65 @@
+:root {
+  /* Light */
+  --bg: #ffffff;
+  --surface: #f7f7f9;
+  --text: #0a0a0b;
+  --muted: #5b5f6a;
+  --border: #e3e5ea;
+  --brand: #c8102e;
+  --brand-600: #a30d25;
+  --focus: #0a84ff;
+  --elev-1: 0 1px 2px rgba(0,0,0,.06);
+  --elev-2: 0 8px 24px rgba(0,0,0,.08);
+}
+
+.dark {
+  /* Dark */
+  --bg: #0b0c10;
+  --surface: #12131a;
+  --text: #f7f7f9;
+  --muted: #b0b3bc;
+  --border: #262832;
+  --brand: #e11937;
+  --brand-600: #c8102e;
+  --focus: #4da3ff;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter), system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  text-rendering: optimizeLegibility;
+}
+a { color: inherit; text-decoration: none; }
+img, svg { display: block; max-width: 100%; height: auto; }
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Typography helpers */
+.lead { font-size: 1.125rem; line-height: 1.6; color: var(--muted); }
+
+/* Layout helpers */
+.container { max-width: 1200px; margin-inline: auto; padding-inline: clamp(16px, 3vw, 32px); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--elev-1);
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden;
+}
+.skip-link:focus {
+  left: 16px; top: 16px; width: auto; height: auto; padding: 8px 12px; background: var(--surface); border: 1px solid var(--border); z-index: 1000;
+}

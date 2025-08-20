@@ -1,0 +1,50 @@
+{
+  "id": "albion-vs-cartel",
+  "slug": "/",
+  "title": "Albion vs. The Expansion Cartel",
+  "summary": "One operator, one plan, owned outcomes.",
+  "hero": {
+    "heading": "The Expansion Cartel slows UK entry and diffuses accountability.",
+    "subheading": "Albion replaces it with one operator, one plan, and owned outcomes.",
+    "ctas": [
+      { "id": "book", "label": "Book your Operator Call", "href": "#contact", "variant": "primary" },
+      { "id": "overview", "label": "Request the Plan Overview", "href": "#contact", "variant": "secondary" }
+    ]
+  },
+  "pains": [
+    { "id": "ownership", "lead": "Fragmented ownership", "body": "Multiple advisors and agencies create hand-offs and gaps. No one owns the result." },
+    { "id": "revenue", "lead": "Delayed revenue", "body": "Legal, HR, and GTM move in different lanes. Decisions stall; first pounds arrive late." },
+    { "id": "compliance", "lead": "Compliance risk", "body": "Employment, data, and sector rules are bolted on. Exposure grows." },
+    { "id": "culture", "lead": "Cultural misreads", "body": "U.S. templates are copy-pasted. Messaging misses; partners disengage." },
+    { "id": "costs", "lead": "Opaque costs", "body": "Overlapping retainers and change orders inflate total cost of entry." }
+  ],
+  "persona": {
+    "title": "For strategic operators",
+    "body": "You want speed without noise, control without micromanagement, and outcomes that stand up to scrutiny. The cartel model wastes time and spend, and risks a messy UK launch. Albion restores governance, clarity, and a clean line of accountability.",
+    "pillars": ["Governance", "Visibility", "Measured speed"]
+  },
+  "principles": [
+    { "id": "p1", "title": "Single chain of command", "why": "Decisions consolidate and execution accelerates.", "pitfall": "Committees and vendors negotiate with each other.", "alternative": "One accountable operator across legal, hiring, GTM, and partnerships." },
+    { "id": "p2", "title": "Compliance first, then growth", "why": "Durable growth rests on a compliant base.", "pitfall": "“We’ll tidy it later.” It is always later.", "alternative": "Employment, data, and sector controls set before scale." },
+    { "id": "p3", "title": "Cultural intelligence over templates", "why": "British buyers value proof, restraint, and local credibility.", "pitfall": "U.S. playbooks are pushed unchanged.", "alternative": "Positioning and partner motions tuned to British expectations." },
+    { "id": "p4", "title": "Operate in public, govern in detail", "why": "Stakeholders need calm visibility.", "pitfall": "Status theatre and slideware.", "alternative": "One plan, dashboard, gates, and written decisions." },
+    { "id": "p5", "title": "Measured speed", "why": "The right pace protects brand and burn.", "pitfall": "Big-bang launches or endless pilots.", "alternative": "Pilot → Core Operator → Operator+Channel with explicit gates." }
+  ],
+  "proofs": [
+    { "id": "time", "title": "Time to first £ revenue", "metric": "[placeholder: 5.2 months]", "detail": "Pilot motion reached first UK revenue with compliant hiring." },
+    { "id": "cost", "title": "Cost control", "metric": "[placeholder: 18–27% reduction]", "detail": "Consolidated vendor stack removed overlap in the first two quarters." },
+    { "id": "risk", "title": "Risk reduction", "metric": "[placeholder: zero audit findings]", "detail": "Clean results across data, employment, and sector checks." },
+    { "id": "partners", "title": "Partner fabric", "metric": "[placeholder: 60 days]", "detail": "Tier-1 UK partners activated with shared pipeline tracking." }
+  ],
+  "testimonials": [
+    { "id": "t1", "quote": "They owned the details and the outcome.", "attribution": "[Series C SaaS, VP Expansion]" },
+    { "id": "t2", "quote": "We finally saw the true cost and could plan accordingly.", "attribution": "[Fintech COO]" }
+  ],
+  "finalCta": {
+    "body": "The cartel model is slow, expensive, and unaccountable. Albion replaces it with one operator you can hold to a result.",
+    "ctas": [
+      { "id": "book", "label": "Book your Operator Call", "href": "#contact", "variant": "primary" },
+      { "id": "overview", "label": "Request the Plan Overview", "href": "#contact", "variant": "secondary" }
+    ]
+  }
+}
